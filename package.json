@@ -1,0 +1,23 @@
+{
+  "name": "gitpdf-profile",
+  "version": "1.0.0",
+  "description": "Creating PDF from user GitHub Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "gitpdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvin-m/GitPdf-Profile.git"
+  },
+  "author": "Arvin-Mahmoudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvin-m/GitPdf-Profile/issues"
+  },
+  "homepage": "https://github.com/arvin-m/GitPdf-Profile#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.4"
+  }
+}

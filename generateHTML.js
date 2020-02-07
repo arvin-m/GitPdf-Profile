@@ -172,3 +172,4 @@ const colors = {
            }
         </style>`
           }
+          module.exports= generateHTML(data);
