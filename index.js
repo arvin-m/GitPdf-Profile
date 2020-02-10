@@ -38,7 +38,7 @@ function apiCall(username){
 
 
 function writeToFile(filePath, htmlString) {
-  console.log(htmlString)
+  // console.log(htmlString)
   const conversion = convertFactory({
     converterPath: convertFactory.converters.PDF
   });
@@ -55,9 +55,9 @@ function writeToFile(filePath, htmlString) {
    try 
    {
      const answers = await promptUser();
-     console.log(answers);
+    //  console.log(answers);
      const apiResponse = await apiCall(answers.username);
-     console.log(apiResponse);
+    //  console.log(apiResponse);
      const data = apiResponse.data;
      data.color = answers.favColor;
 
