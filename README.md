@@ -23,7 +23,7 @@ The PDF will be populated with the following:
 ## Built With 
     JavaScript, HTML, Node.js, axios, electron-html-to, inquirer,GitHub user API
 
-## Example of Generating the PDF
+## Example of Generated PDF
 [GitHub](https://arvin-m.github.io/GitPdf-Profile)
 
 
